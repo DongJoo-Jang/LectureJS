@@ -14,6 +14,10 @@ abstract class UserClass{
 }
 
 class PlayerClass extends UserClass{
+    
+    getNickName(): void {
+        throw new Error("Method not implemented.");
+    }
   
 
 }
